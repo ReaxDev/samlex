@@ -1,5 +1,5 @@
 # samlex
-A library for making making an Elixir app act as a SAML Service Provider
+A library for making making an Elixir Phoenix app act as a SAML2 Service Provider
 
 ## Inspiration
 I am using the [esaml](https://github.com/arekinath/esaml) library as inspiration for this library.  
