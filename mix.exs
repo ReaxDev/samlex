@@ -33,6 +33,11 @@ defmodule Samlex.Mixfile do
 
   defp deps do
     [
+      {:timex, "~> 2.1.6"},
+      {:ex_crypto, "~> 0.1.1", github: "ntrepid8/ex_crypto"},
+      {:sweet_xml, "~> 0.6.1"},
+      {:xml_builder, "~> 0.0.6"},
+
       # Docs
       {:ex_doc, "~> 0.10", only: :docs},
       {:earmark, "~> 0.1", only: :docs},
